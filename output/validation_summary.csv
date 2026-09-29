@@ -1,6 +1,17 @@
 check,passed,detail
 selected_rows_100,True,100
 unique_company_symbols_100,True,100
+daily_unique_symbols_100,True,100
+summary_daily_symbol_sets_match,True,summary=100; daily=100
+daily_rows,True,124062
+daily_date_range,True,2013-02-08..2018-02-07
+daily_date_symbol_duplicates_zero,True,0
+daily_close_missing_zero,True,0
+daily_close_nonpositive_zero,True,0
+daily_counts_match_price_observations,True,mismatches=0
+daily_close_matches_calculation_input,True,124062
+daily_sri_constant_per_symbol,True,1
+daily_sri_matches_summary,True,exact
 volatility_formula_matches,True,rtol=1e-05
 sharpe_formula_matches,True,rtol=1e-05
 beta_formula_matches,True,rtol=1e-05

@@ -19,6 +19,10 @@
   snapshotu. Izvor i vrsta benchmarka zapisani su u svakom retku izlaza.
 - Dnevni prinos je postotna promjena uzastopnih dostupnih cijena. Ne popunjavaju se
   nedostajući dani niti cijene.
+- Iste neprilagođene dnevne `Close` vrijednosti koje ulaze u izračun pokazatelja
+  zapisuju se u zasebni dugi CSV. Svaki redak predstavlja jedno stvarno dostupno
+  opažanje za datum i dionicu; vikendi, blagdani i druga nedostajuća opažanja ne
+  generiraju se niti interpoliraju.
 
 ## Pokazatelji
 
@@ -33,6 +37,8 @@
 - Simulirani SRI dodjeljuje se samo iz godišnje volatilnosti: 1 (`<5%`), 2
   (`<10%`), 3 (`<15%`), 4 (`<20%`), 5 (`<30%`), 6 (`<50%`) ili 7 (`>=50%`).
   To je ilustrativna, simulirana mjera, a ne regulatorni SRI.
+- Naziv stupca je `simulated_sri` (ne `simulated_sr`) u oba izlaza. U dnevnom
+  izlazu vrijednost se preslikava iz sažetka i zato je stalna za svaku dionicu.
 
 ## Potpunost i izlazi
 
@@ -41,6 +47,14 @@ traženog početka te da je zadnje opažanje najviše sedam dana prije traženog
 Status i razlog nepotpunosti zapisuju se za svih 100 kompanija. Skripta stvara:
 
 - `output/sp500_portfolio.csv` — pokazatelji i metapodaci svih odabranih kompanija;
+- `output/yahoo_close_prices.csv` — `date`, izvorni `symbol`, `yahoo_symbol`,
+  neprilagođeni `close` i stalni `simulated_sri`, bez prinosa i pokazatelja;
 - `output/incomplete_history.csv` — samo kompanije bez pune povijesti;
 - `output/validation_summary.csv` — kontrole jedinstvenosti, formula i broja redaka;
 - `output/selected_companies.csv` — auditni popis odabranih kompanija.
+
+Validacija dodatno uspoređuje skupove simbola u sažetnom i dnevnom izlazu, broj
+dnevnih opažanja sa `price_observations`, cijene sa samim ulaznim nizom te traži
+duplikate ključa `date + symbol`, prazne i nepozitivne cijene. Također provjerava
+da je simulirani SRI cijeli broj od 1 do 7, stalan unutar simbola i jednak
+vrijednosti u sažetku.
