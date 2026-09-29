@@ -1,0 +1,4 @@
+Symbol,Security,yahoo_symbol,data_source,benchmark,first_date,last_date,price_observations,return_observations,full_five_year_history,incomplete_reason,annual_return,annual_volatility,sharpe_ratio,beta_sp500,simulated_sri
+ALLE,Allegion,ALLE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-11-18,2018-02-07,1063,1062,False,povijest počinje nakon tolerancije,0.1258599549,0.2082115484,0.5084249922,1.0470332018,5
+APTV,Aptiv,APTV,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2017-12-05,2018-02-07,44,43,False,povijest počinje nakon tolerancije,0.3605005758,0.2296266914,1.4828440623,1.0201618300,5
+CFG,Citizens Financial Group,CFG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2014-09-24,2018-02-07,850,849,False,povijest počinje nakon tolerancije,0.2176165408,0.2641602175,0.7480934966,1.1910183261,5
