@@ -120,6 +120,23 @@ def calculate(symbol: str, prices: pd.Series, market: pd.Series,
     }
 
 
+def daily_close_output(prices: pd.DataFrame, selected: pd.DataFrame,
+                       portfolio: pd.DataFrame) -> pd.DataFrame:
+    """Return the source Close observations in tidy form, without filling gaps."""
+    symbol_lookup = selected.set_index("yahoo_symbol")["Symbol"]
+    sri_lookup = portfolio.set_index("yahoo_symbol")["simulated_sri"]
+    daily = (prices[selected["yahoo_symbol"].tolist()]
+             .rename_axis(index="date", columns="yahoo_symbol")
+             .stack(future_stack=True)
+             .dropna()
+             .rename("close")
+             .reset_index())
+    daily.insert(1, "symbol", daily["yahoo_symbol"].map(symbol_lookup))
+    daily["simulated_sri"] = daily["yahoo_symbol"].map(sri_lookup)
+    daily["date"] = pd.to_datetime(daily["date"]).dt.date
+    return daily[["date", "symbol", "yahoo_symbol", "close", "simulated_sri"]]
+
+
 def main() -> None:
     args = arguments()
     selected = constituents()
@@ -147,6 +164,7 @@ def main() -> None:
     portfolio = selected.merge(metrics, left_on="yahoo_symbol", right_on="symbol").drop(columns="symbol")
     portfolio.insert(3, "data_source", source)
     portfolio.insert(4, "benchmark", benchmark_kind)
+    daily = daily_close_output(prices, selected, portfolio)
 
     # Independent vector checks catch accidental changes to the implemented formulas.
     rets = prices[tickers].apply(lambda column: column.dropna().pct_change(fill_method=None))
@@ -160,9 +178,34 @@ def main() -> None:
     sharpe_check = prices[tickers].apply(expected_sharpe)
     beta_check = rets.apply(lambda x: pd.concat([x, market_returns], axis=1).dropna().cov().iloc[0, 1]
                             / pd.concat([x, market_returns], axis=1).dropna().iloc[:, 1].var(ddof=1))
+    summary_symbols = set(portfolio["Symbol"])
+    daily_symbols = set(daily["symbol"])
+    daily_counts = daily.groupby("symbol").size()
+    expected_counts = portfolio.set_index("Symbol")["price_observations"]
+    source_close = (prices[tickers].rename_axis(index="date", columns="yahoo_symbol")
+                    .stack(future_stack=True).dropna().sort_index())
+    emitted_close = (daily.assign(date=pd.to_datetime(daily["date"]))
+                     .set_index(["date", "yahoo_symbol"])["close"].sort_index())
     checks = [
         ("selected_rows_100", len(portfolio) == 100, len(portfolio)),
         ("unique_company_symbols_100", portfolio["Symbol"].nunique() == 100, portfolio["Symbol"].nunique()),
+        ("daily_unique_symbols_100", daily["symbol"].nunique() == 100, daily["symbol"].nunique()),
+        ("summary_daily_symbol_sets_match", summary_symbols == daily_symbols,
+         f"summary={len(summary_symbols)}; daily={len(daily_symbols)}"),
+        ("daily_rows", len(daily) > 0, len(daily)),
+        ("daily_date_range", len(daily) > 0,
+         f"{daily['date'].min()}..{daily['date'].max()}"),
+        ("daily_date_symbol_duplicates_zero", not daily.duplicated(["date", "symbol"]).any(),
+         int(daily.duplicated(["date", "symbol"]).sum())),
+        ("daily_close_missing_zero", not daily["close"].isna().any(), int(daily["close"].isna().sum())),
+        ("daily_close_nonpositive_zero", not daily["close"].le(0).any(), int(daily["close"].le(0).sum())),
+        ("daily_counts_match_price_observations", daily_counts.equals(expected_counts),
+         f"mismatches={(daily_counts != expected_counts).sum()}"),
+        ("daily_close_matches_calculation_input", source_close.equals(emitted_close), len(daily)),
+        ("daily_sri_constant_per_symbol", daily.groupby("symbol")["simulated_sri"].nunique().eq(1).all(),
+         int(daily.groupby("symbol")["simulated_sri"].nunique().max())),
+        ("daily_sri_matches_summary", daily.groupby("symbol")["simulated_sri"].first().equals(
+            portfolio.set_index("Symbol")["simulated_sri"]), "exact"),
         ("volatility_formula_matches", np.allclose(portfolio.set_index("yahoo_symbol")["annual_volatility"], expected_vol, equal_nan=True), "rtol=1e-05"),
         ("sharpe_formula_matches", np.allclose(portfolio.set_index("yahoo_symbol")["sharpe_ratio"], sharpe_check, equal_nan=True), "rtol=1e-05"),
         ("beta_formula_matches", np.allclose(portfolio.set_index("yahoo_symbol")["beta_sp500"], beta_check, equal_nan=True), "rtol=1e-05"),
@@ -173,10 +216,13 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     selected.to_csv(args.output_dir / "selected_companies.csv", index=False)
     portfolio.to_csv(args.output_dir / "sp500_portfolio.csv", index=False, float_format="%.10f")
+    daily.to_csv(args.output_dir / "yahoo_close_prices.csv", index=False, float_format="%.10f")
     portfolio.loc[~portfolio["full_five_year_history"]].to_csv(
         args.output_dir / "incomplete_history.csv", index=False, float_format="%.10f")
     validation.to_csv(args.output_dir / "validation_summary.csv", index=False)
     print(validation.to_string(index=False))
+    print(f"Dnevni CSV: {len(daily)} redaka, {daily['symbol'].nunique()} simbola, "
+          f"{daily['date'].min()} do {daily['date'].max()}")
     print(f"Nepotpuna povijest: {(~portfolio['full_five_year_history']).sum()}")
     if not validation["passed"].all():
         raise RuntimeError("Jedna ili više validacija nije prošla")
