@@ -1,0 +1,8 @@
+check,passed,detail
+selected_rows_100,True,100
+unique_company_symbols_100,True,100
+volatility_formula_matches,True,rtol=1e-05
+sharpe_formula_matches,True,rtol=1e-05
+beta_formula_matches,True,rtol=1e-05
+sharpe_values_finite,True,100
+sri_between_1_and_7,True,100

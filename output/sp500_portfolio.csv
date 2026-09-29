@@ -1,0 +1,101 @@
+Symbol,Security,yahoo_symbol,data_source,benchmark,first_date,last_date,price_observations,return_observations,full_five_year_history,incomplete_reason,annual_return,annual_volatility,sharpe_ratio,beta_sp500,simulated_sri
+A,Agilent Technologies,A,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0859407127,0.2457660577,0.2683068332,1.1797973013,5
+AAPL,Apple Inc.,AAPL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1866139036,0.2316568878,0.7192270655,0.8134026147,5
+ABBV,AbbVie,ABBV,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2568901423,0.2675855683,0.8852874385,1.0236975303,5
+ABT,Abbott Laboratories,ABT,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1126998440,0.1956059293,0.4739112167,0.9763837526,4
+ACN,Accenture,ACN,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1618827749,0.1879304612,0.7549748667,0.9528908741,4
+ADBE,Adobe Inc.,ADBE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3753996280,0.2432178123,1.4612401315,1.1016797985,5
+ADI,Analog Devices,ADI,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1331688504,0.2370686326,0.4773674575,1.1587674630,5
+ADM,Archer Daniels Midland,ADM,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0690619304,0.2267509488,0.2163692396,1.0022975651,5
+ADP,Automatic Data Processing,ADP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1327211623,0.1820163831,0.6192912990,0.9264021353,4
+ADSK,Autodesk,ADSK,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2325327037,0.2980328903,0.7131182856,1.3383528677,5
+AEE,Ameren,AEE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1028715789,0.1704989748,0.4860532386,0.5192369566,4
+AEP,American Electric Power,AEP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0766089852,0.1671411185,0.3386897590,0.4859147537,4
+AES,AES Corporation,AES,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0109016578,0.2518894321,-0.1226794533,1.0419773025,5
+AFL,Aflac,AFL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1120554165,0.1632561804,0.5638709439,0.8675524208,4
+AIG,American International Group,AIG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0929252296,0.2075187748,0.3514150932,1.1034872957,5
+AIZ,Assurant,AIZ,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1808666373,0.2053245747,0.7834748349,0.8982131895,5
+AJG,Arthur J. Gallagher & Co.,AJG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1173733319,0.1521492893,0.6399854536,0.8139230527,4
+AKAM,Akamai Technologies,AKAM,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1273815807,0.3384060256,0.3173158059,1.2813265372,6
+ALB,Albemarle Corporation,ALB,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1122679735,0.2774520681,0.3325546429,1.1614360271,5
+ALGN,Align Technology,ALGN,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.4828372406,0.3286401313,1.4083406027,1.1890363852,6
+ALL,Allstate,ALL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1651208590,0.1608909415,0.9019827823,0.7558432909,4
+ALLE,Allegion,ALLE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-11-18,2018-02-07,1063,1062,False,povijest počinje nakon tolerancije,0.1258599549,0.2082115484,0.5084249922,1.0470332018,5
+AMAT,Applied Materials,AMAT,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2906014924,0.2745565226,0.9855948414,1.2661911101,5
+AMD,Advanced Micro Devices,AMD,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3499598274,0.5998064275,0.5501105227,1.5584058216,7
+AME,Ametek,AME,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1234213658,0.1846668937,0.5600428086,1.0829733484,4
+AMGN,Amgen,AMGN,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1539676646,0.2491442205,0.5377113076,1.1530142793,5
+AMP,Ameriprise Financial,AMP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1922977033,0.2447693168,0.7039187164,1.4820313651,5
+AMT,American Tower,AMT,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1269258125,0.1882082904,0.5681248805,0.7849500719,4
+AMZN,Amazon,AMZN,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.4019006122,0.2894682523,1.3193177807,1.0394553760,5
+AON,Aon plc,AON,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1999538903,0.1736488803,1.0363089590,0.8840107766,4
+AOS,A. O. Smith,AOS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2912539045,0.2220296426,1.2217013067,1.1901229317,5
+APA,APA Corporation,APA,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.1412660486,0.3625192650,-0.4448482166,1.4187405970,6
+APD,Air Products,APD,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1236734942,0.1949866324,0.5316953934,0.9976304296,4
+APH,Amphenol,APH,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2019025653,0.1816103621,1.0016089563,1.0122506245,4
+APTV,Aptiv,APTV,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2017-12-05,2018-02-07,44,43,False,povijest počinje nakon tolerancije,0.3605005758,0.2296266914,1.4828440623,1.0201618300,5
+ARE,Alexandria Real Estate Equities,ARE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1038201163,0.1774840989,0.4722683145,0.6979324931,4
+AVGO,Broadcom,AVGO,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.4641920073,0.3193934908,1.3907359418,1.3528954860,6
+AVY,Avery Dennison,AVY,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2395645604,0.2017803942,1.0881362447,1.0145136362,5
+AWK,American Water Works,AWK,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1476313734,0.1632773960,0.7816842781,0.4619600453,4
+AXP,American Express,AXP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0866544361,0.1994380463,0.3342112367,0.9435823766,4
+AZO,AutoZone,AZO,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1355616694,0.2000267179,0.5777311682,0.7178430625,5
+BA,Boeing,BA,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3540525195,0.2143198172,1.5586637014,1.0158140983,5
+BAC,Bank of America,BAC,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2160367019,0.2499480829,0.7843096839,1.3422746477,5
+BAX,Baxter International,BAX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0102131731,0.2657806985,-0.1136770775,0.7156310710,5
+BBY,Best Buy,BBY,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3607527899,0.3940635708,0.8647152773,1.1261771596,6
+BDX,Becton Dickinson,BDX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2026830947,0.1705094623,1.0713956412,0.7625042669,4
+BEN,Franklin Resources,BEN,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0333884127,0.2332351713,-0.2289037815,1.4131905434,5
+BF.B,Brown–Forman,BF.B,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1488074310,0.1815824821,0.7093604488,0.7553174833,4
+BIIB,Biogen,BIIB,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1474128501,0.3440929579,0.3702861311,1.2861791873,6
+BLK,BlackRock,BLK,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1746239313,0.2163367398,0.7147372725,1.3685668444,5
+BMY,Bristol Myers Squibb,BMY,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1257,1256,True,,0.1109052115,0.2457201695,0.3699542112,0.8319215965,5
+BRK.B,Berkshire Hathaway,BRK.B,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1556641031,0.1476084289,0.9190810039,0.9103010683,3
+BSX,Boston Scientific,BSX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2788869465,0.2528799971,1.0237541502,0.9888582246,5
+BXP,"BXP, Inc.",BXP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0187037465,0.1859668249,-0.0069703481,0.8122881285,4
+C,Citigroup,C,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1194103549,0.2386226486,0.4166006681,1.4006376624,5
+CAH,Cardinal Health,CAH,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0759747328,0.2245064365,0.2493235100,0.9436779338,5
+CAT,Caterpillar Inc.,CAT,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0977501302,0.2263887112,0.3434364277,1.1042251610,5
+CB,Chubb Limited,CB,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1135268474,0.1503802522,0.6219357004,0.8113872692,4
+CBOE,Cboe Global Markets,CBOE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2717999631,0.1953624002,1.2888865144,0.5464321759,4
+CCI,Crown Castle,CCI,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0897252468,0.1779089551,0.3919153296,0.6240584075,4
+CCL,Carnival Corporation,CCL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1212942292,0.2309819903,0.4385373468,1.0298227043,5
+CDNS,Cadence Design Systems,CDNS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2220722757,0.2227829891,0.9070363788,0.9410383048,5
+CF,CF Industries,CF,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0268536032,0.3693760979,-0.1268452491,1.1394569150,6
+CFG,Citizens Financial Group,CFG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2014-09-24,2018-02-07,850,849,False,povijest počinje nakon tolerancije,0.2176165408,0.2641602175,0.7480934966,1.1910183261,5
+CHD,Church & Dwight,CHD,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0952555995,0.1571046995,0.4790155846,0.5919395546,4
+CHRW,C.H. Robinson,CHRW,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0916820472,0.2034644869,0.3523074136,0.7392017781,5
+CHTR,Charter Communications,CHTR,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3509002109,0.2696170074,1.2272972468,0.8540734613,5
+CI,Cigna,CI,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2586090388,0.2348123421,1.0161690681,0.7981843484,5
+CINF,Cincinnati Financial,CINF,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1024674146,0.1605139029,0.5137711631,0.8641093312,4
+CL,Colgate-Palmolive,CL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0528673703,0.1593172398,0.2063014041,0.6722219738,4
+CLX,Clorox,CLX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0963269994,0.1551190422,0.4920543492,0.4960847834,4
+CMCSA,Comcast,CMCSA,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1569966891,0.1937681819,0.7070133379,0.8753943143,4
+CME,CME Group,CME,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2281789428,0.1943935723,1.0709147442,0.7521116366,4
+CMG,Chipotle Mexican Grill,CMG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0322886160,0.3083784265,-0.1695599029,0.7438725170,6
+CMI,Cummins,CMI,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0765860460,0.2313025380,0.2446408349,1.1511049511,5
+CMS,CMS Energy,CMS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1044812061,0.1626972010,0.5192542071,0.4786295080,4
+CNC,Centene Corporation,CNC,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.3532945343,0.3237245753,1.0295620406,1.0735807516,6
+CNP,CenterPoint Energy,CNP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0474469928,0.1877930120,0.1461555600,0.7591082027,4
+COF,Capital One,COF,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1137766347,0.2268318609,0.4134191482,1.1820683087,5
+COO,Cooper Companies (The),COO,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1720510481,0.2191681547,0.6937643305,0.7699167434,5
+COP,ConocoPhillips,COP,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0078695775,0.2987218561,-0.0932960777,1.2559005089,5
+COST,Costco,COST,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1225987548,0.1705987980,0.6014037379,0.6350730248,4
+CRM,Salesforce,CRM,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2098245533,0.3036397139,0.6251637868,1.2608207940,6
+CSCO,Cisco,CSCO,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1378432367,0.2104634577,0.5599225539,0.9317229514,5
+CSX,CSX Corporation,CSX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1925932292,0.2612522104,0.6606383499,1.1710026576,5
+CTAS,Cintas,CTAS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2959991855,0.1787151145,1.5443527885,0.8771163160,4
+CTSH,Cognizant,CTSH,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1422797669,0.2514343150,0.4863288722,1.1151194905,5
+CVS,CVS Health,CVS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0775176573,0.1968071965,0.2922538316,0.7793630429,4
+CVX,Chevron Corporation,CVX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,-0.0006064760,0.2054572061,-0.1002957084,1.0025054732,5
+D,Dominion Energy,D,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0631791037,0.1667062193,0.2590131544,0.5007197626,4
+DAL,Delta Air Lines,DAL,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2981510648,0.3184822075,0.8733645342,1.3689731831,6
+DE,Deere & Company,DE,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1171621393,0.2086955294,0.4655688578,0.8119531404,5
+DG,Dollar General,DG,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1631404214,0.2511920955,0.5698444495,0.7114339503,5
+DGX,Quest Diagnostics,DGX,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1145598480,0.1912937695,0.4943174484,0.7904627974,4
+DHI,D. R. Horton,DHI,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1494542214,0.3033052650,0.4268116525,1.3696525191,6
+DHR,Danaher Corporation,DHR,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1243,1242,True,,0.0939681888,0.1916510723,0.3859523868,0.9280232778,4
+DIS,Walt Disney Company (The),DIS,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.1390528490,0.1841876143,0.6463672895,0.9074790600,4
+DLR,Digital Realty,DLR,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0976419003,0.2334792534,0.3325430381,0.6243726932,5
+DLTR,Dollar Tree,DLTR,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.2092034593,0.2406780022,0.7861269315,0.8252330313,5
+DOV,Dover Corporation,DOV,Kaggle all_stocks_5yr (GitHub mirror),jednako ponderirani S&P snapshot proxy,2013-02-08,2018-02-07,1259,1258,True,,0.0703853156,0.2365135773,0.2130335018,1.2029651915,5
